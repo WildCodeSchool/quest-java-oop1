@@ -15,6 +15,14 @@ public class Duck {
 		this.age = age;
 		this.swimming = false;
     }
+
+    public static String quack() {
+        return "Quack!";
+    }
+
+	public String nameAndAge() {
+		return "My name is " + this.getName() + " and I'm " + String.valueOf(this.getAge());
+	}
     
     public String getName() {
         return this.name;
