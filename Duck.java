@@ -33,12 +33,12 @@ public class Duck {
         return this.name;
     }
     
-    public void setName(String name) {
-        this.name = name;
-    }
-    
     public int getAge() {
         return this.age;
+    }
+    
+    public boolean isSwimming() {
+        return this.swimming;
     }
     
     // mutateurs (setters)
@@ -46,8 +46,8 @@ public class Duck {
         this.age = age;
     }
     
-    public boolean isSwimming() {
-        return this.swimming;
+    public void setName(String name) {
+        this.name = name;
     }
     
     public void setSwimming(boolean swimming) {
