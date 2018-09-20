@@ -1,21 +1,21 @@
 public class Duck {
 
     // attributs
-	private String name;
-	private int age;
-	private boolean swimming;
+    private String name;
+    private int age;
+    private boolean swimming;
 
     // constructeurs
-	public Duck(String name) {
-		this.name = name;
-		this.age = 0;
-		this.swimming = false;
-	}
+    public Duck(String name) {
+        this.name = name;
+        this.age = 0;
+        this.swimming = false;
+    }
 
-	public Duck(String name, int age) {
-		this.name = name;
-		this.age = age;
-		this.swimming = false;
+    public Duck(String name, int age) {
+        this.name = name;
+        this.age = age;
+        this.swimming = false;
     }
 
     // méthode statique
@@ -24,9 +24,9 @@ public class Duck {
     }
 
     // méthode instanciée
-	public String nameAndAge() {
-		return "My name is " + this.getName() + " and I'm " + String.valueOf(this.getAge());
-	}
+    public String nameAndAge() {
+        return "My name is " + this.getName() + " and I'm " + String.valueOf(this.getAge());
+    }
     
     // accesseurs (getters)
     public String getName() {
