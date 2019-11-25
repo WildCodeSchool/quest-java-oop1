@@ -1,11 +1,11 @@
 public class Duck {
 
-    // attributs
+    // attributes
     private String name;
     private int age;
     private boolean swimming;
 
-    // constructeurs
+    // constructors
     public Duck(String name) {
         this.name = name;
         this.age = 0;
@@ -18,17 +18,17 @@ public class Duck {
         this.swimming = false;
     }
 
-    // méthode statique
+    // static method
     public static String quack() {
         return "Quack!";
     }
 
-    // méthode instanciée
+    // instantiated method
     public String nameAndAge() {
         return "My name is " + this.getName() + " and I'm " + String.valueOf(this.getAge());
     }
     
-    // accesseurs (getters)
+    // accessors (getters)
     public String getName() {
         return this.name;
     }
@@ -41,7 +41,7 @@ public class Duck {
         return this.swimming;
     }
     
-    // mutateurs (setters)
+    // mutators (setters)
     public void setAge(int age) {
         this.age = age;
     }
