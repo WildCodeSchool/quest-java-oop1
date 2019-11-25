@@ -23,12 +23,12 @@ public class Duck {
         return "Quack!";
     }
 
-    // instantiated method
+    // instance method
     public String nameAndAge() {
         return "My name is " + this.getName() + " and I'm " + String.valueOf(this.getAge());
     }
     
-    // accessors (getters)
+    // getters
     public String getName() {
         return this.name;
     }
@@ -41,7 +41,7 @@ public class Duck {
         return this.swimming;
     }
     
-    // mutators (setters)
+    // setters
     public void setAge(int age) {
         this.age = age;
     }

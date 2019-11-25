@@ -2,13 +2,13 @@ public class Pond {
 
     public static void main(String[] args) {
 
-        // the riri reference receives a new instance of the Duck class
+        // riri receives a reference to a new instance of the Duck class
         Duck riri = new Duck("Riri", 8); 
-        // use of getters        
+        // getters usage
         System.out.println("1. Duck name is : " + riri.getName());
         System.out.println("2. He was " + String.valueOf(riri.getAge()));
         
-        // use of setter
+        // setter usage
         riri.setAge(9);
         System.out.println("3. Now he is " + String.valueOf(riri.getAge()));
 
@@ -17,7 +17,7 @@ public class Pond {
         fifi.setSwimming(true);
         System.out.println("5. Now his swimming state is : " + String.valueOf(fifi.isSwimming()));
 
-        // instantiated method
+        // instance method
         Duck loulou = new Duck("Loulou", 8);   
         System.out.println("6. " + loulou.nameAndAge());
 
@@ -28,7 +28,7 @@ public class Pond {
         Duck mysterMask = new Duck("Myster Mask");
         Duck albertColvert = mysterMask;
 
-        // both point to the same memory space:
+        // both aim at the same memory space
         albertColvert.setName("Albert Colvert");
         System.out.println("8. Myster Mask is : " + mysterMask.getName());
     }
